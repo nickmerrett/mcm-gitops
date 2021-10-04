@@ -82,7 +82,7 @@
     },
     {
       "name": "vm_1_datacenter",
-      "value": "DC1"
+      "value": "Homelab"
     },
     {
       "name": "vm_1_folder",
