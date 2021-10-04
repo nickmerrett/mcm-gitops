@@ -1,5 +1,5 @@
 {
-  "name": "eltham-vm-6",
+  "name": "eltham-vm-1",
   "cloud_connection_ids": [
     "6153aa68463f1d00190f69fa" ],
   "templateId": "6152ccc0aa17bf001936c6e9",
@@ -14,7 +14,7 @@
     },
     {
       "name": "vm_1_name",
-      "value": "eltham-vm-6"
+      "value": "eltham-vm-1"
     },
     {
       "name": "vm_1_dns_servers",
@@ -58,7 +58,7 @@
     },
     {
       "name": "vm_1_ipv4_address",
-      "value": "10.20.20.96"
+      "value": "10.20.20.91"
     },
     {
       "name": "vm_1_memory",
@@ -70,7 +70,7 @@
     },
     {
       "name": "vm_1_number_of_vcpu",
-      "default": "2"
+      "value": "2"
     },
     {
       "name": "vm_1_network_interface_label",
@@ -78,11 +78,11 @@
     },
     {
       "name": "vm_1_cluster",
-      "value": "Homelab"
+      "value": "HPE"
     },
     {
       "name": "vm_1_datacenter",
-      "value": "Datacenter"
+      "value": "DC1"
     },
     {
       "name": "vm_1_folder",
@@ -94,7 +94,7 @@
     },
     {
       "name": "vm_1_resource_pool",
-      "value": "Homelab/Resources"
+      "value": "HPE/Resources"
     }
   ]
 }
