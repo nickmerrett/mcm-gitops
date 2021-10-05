@@ -34,7 +34,7 @@
     },
     {
       "name": "vm_1-image",
-      "value": "rhel7.9_template"
+      "value": "eltham-vm"
     },
     {
       "name": "vm_1_root_disk_size",
