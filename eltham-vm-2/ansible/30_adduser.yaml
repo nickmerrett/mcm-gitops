@@ -1,0 +1,15 @@
+- hosts: all
+  become: 'yes'
+  vars: {}
+  tasks:
+   - name: Create a login user
+     user:
+        name: cong 
+        password: '$6$VrYuN4xUcY8rnWwk$JYocvJjyLC6D3reWWF.auJkLYocs1BoOV3LduJ.Ikm3C9gfk.Y4elYA/zMuP.6KwUbql2EMW09d7uBi.QuOee/'
+        groups: # Empty by default, here we give it some groups
+         - wheel 
+        state: present
+        shell: /bin/bash       # Defaults to /bin/bash
+        system: no             # Defaults to no
+        createhome: yes        # Defaults to yes
+        home: /home/cong  # Defaults to /home/<username>
