@@ -1,7 +1,8 @@
 [vms]
-159.196.67.40 ansible_port=23022
+159.196.67.40 ansible_port=23022 ansible_ssh_private_key_file=ansible
 
 [vms:vars]
 ansible_connection=ssh
-ansible_user=root
-ansible_ssh_pass=homelab2
+ansible_user=ansible
+ansible_ssh_pass=password1234
+ansible_become_pass=password1234
