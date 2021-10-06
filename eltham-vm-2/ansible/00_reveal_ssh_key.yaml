@@ -8,7 +8,7 @@
       content: "{{ssh_key}}"
       dest: "/tekton/home/id_rsa2"
       owner: ansible
-      group: ansible
+      group: root 
       mode: 0600
    
 
