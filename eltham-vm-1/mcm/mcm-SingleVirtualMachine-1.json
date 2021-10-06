@@ -34,7 +34,7 @@
     },
     {
       "name": "vm_1-image",
-      "value": "eltham-vm-1"
+      "value": "eltham-vm"
     },
     {
       "name": "vm_1_root_disk_size",
