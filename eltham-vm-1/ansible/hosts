@@ -1,8 +1,9 @@
 [vms]
-159.196.67.40 ansible_port=22022 ansible_ssh_private_key_file=ansible
+159.196.67.40 ansible_port=22022 
 
 [vms:vars]
 ansible_connection=ssh
 ansible_user=ansible
 ansible_ssh_pass=password1234
 ansible_become_pass=password1234
+ansible_ssh_private_key_file=/tekton/home/id_rsa

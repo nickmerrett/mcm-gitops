@@ -1,0 +1,14 @@
+- hosts: localhost
+  tasks:
+  - name: import secret file 
+    include_vars: "ansible.enc"
+
+  - name: extract key
+    copy: 
+      content: "{{ssh_key}}"
+      dest: "/tekton/home/id_rsa2
+      owner: ansible
+      group: ansible
+      mode: 0600
+   
+
