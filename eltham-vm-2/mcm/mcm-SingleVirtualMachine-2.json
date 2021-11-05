@@ -1,8 +1,8 @@
 {
   "name": "eltham-vm-2",
   "cloud_connection_ids": [
-    "6153aa68463f1d00190f69fa" ],
-  "templateId": "6152ccc0aa17bf001936c6e9",
+    "6184698c2134ae001c9a654e" ],
+  "templateId": "6171f4443d4ce900193a217f",
   "catalogName": "SingleVirtualMachine",
   "catalogType": "prebuilt",
   "forceCreate": "true",
