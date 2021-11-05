@@ -26,7 +26,7 @@
       },
       {
         "name": "vpc_name_tag",
-        "value":"vpc-67181f00"
+        "value":"mcm-test"
       },
       {
         "name": "subnet_name",
