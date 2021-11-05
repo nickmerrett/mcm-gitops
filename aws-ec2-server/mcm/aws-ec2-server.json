@@ -1,0 +1,44 @@
+{
+    "name": "aws-ec2-server",
+    "cloud_connection_ids": [
+      "61849cf52134ae001c9a65a7" ],
+    "templateId": "6171f4313d4ce900193a2157",
+    "catalogName": "Amazon EC2 Virtual Server with SSH Key",
+    "catalogType": "prebuilt",
+    "forceCreate": "true",
+
+    "parameters":[
+      {
+        "name": "aws_region",
+        "value": "ap-southeast-2"
+      },
+      { 
+        "name": "aws_image",
+        "value": "ubuntu/images/hvm-ssd/ubuntu-trusty-14.04-amd64-server-*"
+      },
+      {
+        "name": "aws_image_size",
+        "value": "t2.small"
+      },
+      {
+        "name": "aws_ami_owner_id",
+        "value": "099720109477"
+      },
+      {
+        "name": "vpc_name_tag",
+        "value":"vpc-67181f00"
+      },
+      {
+        "name": "subnet_name",
+        "value": "mcm-test"
+      },
+      {
+        "name": "public_ssh_key_name",
+        "value": "test key"
+      },
+      {
+        "name": "public_ssh_key",
+        "value": "{{ secrets.ssh_key }}"
+      }
+    ]
+  }
